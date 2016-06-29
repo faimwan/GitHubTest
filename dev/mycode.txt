@@ -1,1 +1,6 @@
 adding code
+
+select * from userdeatils where username = 'fai';
+select a.firtname, a.lastname, b.zipcode, b.address
+from users a, address b
+where a.user_id = b.id;
